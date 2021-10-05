@@ -257,26 +257,12 @@ html {
   gap: 0;
   grid-template-rows: repeat(2, minmax(0, 1fr));
   background-color: #002a54;
-  max-height: 375px;
-  width: 100vw;
+  width: 100%;
   padding: 0;
-}
-
-@media (max-width: 1050px) {
-  #page-top .header-container .row .col-xs-12 {
-    max-height: 400px;
-  }
-}
-
-@media (max-width: 767px) {
-  #page-top .header-container .row .col-xs-12 {
-    max-height: 500px;
-  }
 }
 
 @media (max-width: 550px) {
   #page-top .header-container .row .col-xs-12 {
-    max-height: 640px;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     grid-template-rows: unset;
   }
@@ -379,18 +365,16 @@ html {
   font-family: "interstate", arial, sans-serif;
   background-color: transparent !important;
   font-size: 1.5rem;
+  width: 100%;
+  display: block;
+  word-break: break-word;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
   #page-top .header-container .row .col-xs-12 .showcase-description p, #page-top .header-container .row .col-xs-12 .showcase-description span {
     font-size: 1.25rem;
   }
-}
-
-#page-top .header-container .row .col-xs-12 .showcase-description p, #page-top .header-container .row .col-xs-12 .showcase-description span {
-  width: 100%;
-  display: block;
-  word-break: break-word;
 }
 
 #page-top .header-container .row .col-xs-12 .showcase-description p:first-child {
@@ -425,15 +409,6 @@ html {
     margin-bottom: 3rem;
     max-width: 85%;
     grid-row: unset;
-  }
-}
-
-@media (max-width: 780px) {
-  #page-top .header-container .row .col-xs-12 .showcase-title {
-    font-size: 4rem;
-  }
-  #page-top .header-container .row .col-xs-12 .showcase-description p, #page-top .header-container .row .col-xs-12 .showcase-description span {
-    font-size: 1.5rem;
   }
 }
 

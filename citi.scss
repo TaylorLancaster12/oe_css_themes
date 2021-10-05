@@ -440,20 +440,11 @@ html {
         @include grid(2, 1fr, 0);
         grid-template-rows: repeat(2, minmax(0, 1fr));
         background-color: $primary-accent;
-        max-height: 375px;
-        width: 100vw;
+        // max-height: 375px;
+        width: 100%;
         padding: 0;
 
-        @include breakpoint(md) {
-          max-height: 400px;
-        }
-
-        @include breakpoint(sm) {
-          max-height: 500px;
-        }
-
         @include breakpoint(xs) {
-          max-height: 640px;
           grid-template-columns: repeat(1, minmax(0, 1fr));
           grid-template-rows: unset;
         }
@@ -537,16 +528,14 @@ html {
             font-family: $primary-font;
             background-color: transparent !important;
             font-size: 1.5rem;
+            width: 100%;
+            display: block;
+            word-break: break-word;
+            margin-bottom: 2rem;
 
             @media (max-width: 768px) {
               font-size: 1.25rem;
             }
-          }
-
-          p, span {
-            width: 100%;
-            display: block;
-            word-break: break-word;
           }
 
           p:first-child {
@@ -578,17 +567,6 @@ html {
             margin-bottom: 3rem;
             max-width: 85%;
             grid-row: unset;
-          }
-        }
-
-        @media (max-width: 780px) {
-          .showcase-title {
-            font-size: 4rem;
-          }
-          .showcase-description {
-            p, span {
-              font-size: 1.5rem;
-            }
           }
         }
       }
