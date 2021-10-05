@@ -542,7 +542,8 @@ html {
           p:first-child {
             margin-bottom: 1rem;
             font-size: 4.5rem;
-            font-style: 400;
+            font-weight: 400;
+            font-style: italic;
 
             @media (max-width: 768px) {
               font-size: 3rem;
@@ -558,7 +559,7 @@ html {
             background-color: $light-blue;
             transition: background-color .2s ease-in-out;
             font-size: 1;
-            font-style: 400;
+            font-weight: 400;
 
             &:hover {
               background-color: $blue;

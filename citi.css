@@ -381,7 +381,8 @@ html {
 #page-top .header-container .row .col-xs-12 .showcase-description p:first-child {
   margin-bottom: 1rem;
   font-size: 4.5rem;
-  font-style: 400;
+  font-weight: 400;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {
@@ -399,7 +400,7 @@ html {
   background-color: #005aa1;
   transition: background-color .2s ease-in-out;
   font-size: 1;
-  font-style: 400;
+  font-weight: 400;
 }
 
 #page-top .header-container .row .col-xs-12 .showcase-description a:hover {
