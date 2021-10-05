@@ -974,7 +974,7 @@ html {
                     opacity: 0;
                     content: '\276F'; // right chevron
                     position: absolute;
-                    left: 7rem;
+                    left: 6rem;
                     top: 4.1rem;
                     color: $white;
                     font-size: 1.5rem;
@@ -1026,7 +1026,7 @@ html {
                 order: 3;
 
                 &:before {
-                  content: "Learn More";
+                  content: "Details";
                   font-family: $primary-font;
                 }
 
@@ -1083,7 +1083,9 @@ html {
 ///////////////////////////////////////
 #page-top {
   #showcase_category {
+    display: block;
     background-color: $white;
+    width: 100%;
 
     .container.posts {
       margin-bottom: 8rem;
@@ -1260,7 +1262,7 @@ html {
                     font-size: 1.5rem;
 
                     &:before {
-                      content: "Learn More";
+                      content: "Details";
                       font-family: $primary-font;
                     }
 
@@ -1516,7 +1518,7 @@ html {
                   order: 3;
 
                   &:before {
-                    content: "Learn More";
+                    content: "Details";
                     font-family: $primary-font;
                   }
 
