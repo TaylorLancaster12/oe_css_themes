@@ -5,8 +5,8 @@
 
 :root {
   --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/56d5b5f3-63c4-4e8a-a795-b911e52ec088/subaccount/7fd09f30-2400-4c9c-89e8-e548073258ec/content/assets/templates/template_background/Navbar_DBD_logo_1627404178385/Navbar_DBD_logo_a462f55e-f921-46da-8634-f267245e2aab.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=S91YM6QiDqN%2FnryzMqxRfspPndw%3D");
-  --header-button-color: #002D72;
-  --header-button-hover: #005aa1;
+  --header-button-color: #005aa1;
+  --header-button-hover: #002D72;
 }
 
 ///////////////////////////////////////
@@ -1913,4 +1913,36 @@ footer {
 .column-view-item>.post>.thumb-wrapper img {
   max-width: 100%;
   max-height: 100%;
+}
+
+#page-top .liveLabel {
+  background: red;
+}
+
+#page-top .upcomingLabel {
+  opacity: .75;
+  background: #e3e3e3;
+  color: $navy;
+}
+
+.newLabel {
+  z-index: 3;
+}
+
+@media not all and (min-resolution:.001dpcm) {
+    @media (min-width: 873px) {
+        #page-top header .header-container .row .col-xs-12 {
+            max-height: 350px !important;
+        }
+    }
+    @media (min-width: 873px) and (max-width: 1050px) {
+        #page-top header .header-container .row .col-xs-12 {
+            max-height: 450px !important;
+        }
+    }
+    @media (min-width: 767px) and (max-width: 872px) {
+        #page-top header .header-container .row .col-xs-12 {
+            max-height: 550px !important;
+        }
+    }
 }
