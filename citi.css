@@ -85,7 +85,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #002E72;
+  background-color: #002D72;
 }
 
 #kv-track-parameters ~ #main_navigation .container-fluid .navbar-header {
@@ -127,7 +127,7 @@ html {
 }
 
 #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:first-child #user-options-dropdown a.dropdown-toggle span.user-options-icon {
-  color: #002E72 !important;
+  color: #002D72 !important;
   transition: color .25s ease;
 }
 
@@ -142,7 +142,7 @@ html {
 }
 
 #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:first-child #user-options-dropdown.open .dropdown-menu:hover {
-  background-color: #056DAE !important;
+  background-color: #005aa1 !important;
 }
 
 #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:first-child #user-options-dropdown.open .dropdown-menu button {
@@ -155,7 +155,7 @@ html {
 
 #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:last-child li {
   transition: background-color .25s ease;
-  background-color: #002E72;
+  background-color: #002D72;
 }
 
 #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:last-child li a {
@@ -164,7 +164,7 @@ html {
 }
 
 #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:last-child li:hover {
-  background-color: #056DAE;
+  background-color: #005aa1;
 }
 
 @media (max-width: 1115px) and (min-width: 768px) {
@@ -236,11 +236,11 @@ html {
     font-weight: 500;
     font-size: 2rem;
     transition: color .25s ease;
-    color: #002E72 !important;
+    color: #002D72 !important;
     padding: 1.5rem;
   }
   #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:last-child li a:hover {
-    color: #056DAE !important;
+    color: #005aa1 !important;
   }
 }
 
@@ -377,8 +377,14 @@ html {
   line-height: 1.3;
   letter-spacing: 1px;
   font-family: "interstate", arial, sans-serif;
-  font-size: 1.5rem;
   background-color: transparent !important;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  #page-top .header-container .row .col-xs-12 .showcase-description p, #page-top .header-container .row .col-xs-12 .showcase-description span {
+    font-size: 1.25rem;
+  }
 }
 
 #page-top .header-container .row .col-xs-12 .showcase-description p, #page-top .header-container .row .col-xs-12 .showcase-description span {
@@ -389,7 +395,13 @@ html {
 
 #page-top .header-container .row .col-xs-12 .showcase-description p:first-child {
   margin-bottom: 1rem;
-  font-size: 3.5;
+  font-size: 4.5rem;
+}
+
+@media (max-width: 768px) {
+  #page-top .header-container .row .col-xs-12 .showcase-description p:first-child {
+    font-size: 3rem;
+  }
 }
 
 #page-top .header-container .row .col-xs-12 .showcase-description a {
@@ -398,12 +410,13 @@ html {
   display: inline-block;
   margin: 1rem 1rem 0 0;
   padding: 1rem;
-  background-color: #84BD00;
+  background-color: #005aa1;
   transition: background-color .2s ease-in-out;
+  font-size: 1;
 }
 
 #page-top .header-container .row .col-xs-12 .showcase-description a:hover {
-  background-color: #00843D;
+  background-color: #002D72;
 }
 
 @media (max-width: 767px) {
@@ -731,12 +744,12 @@ html {
 }
 
 #page-top .featured-category .featured-category-title-link .showcase-title:hover {
-  color: #002E72 !important;
+  color: #002D72 !important;
 }
 
 #page-top .featured-category .featured-category-path {
   color: #fafafa !important;
-  background-color: #056DAE;
+  background-color: #005aa1;
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -831,7 +844,7 @@ html {
 #page-top .featured-category .carousel .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title a, #page-top .featured-category .carousel .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title div,
 #page-top .featured-category .carousel .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title a,
 #page-top .featured-category .carousel .post .thumb-meta-wrapper .tile-text-area .link-header.tile-header-ellipsis .tile-title div {
-  color: #056DAE !important;
+  color: #005aa1 !important;
   font-size: 1.75rem;
   font-family: "interstate", arial, sans-serif;
   margin-bottom: 0;
@@ -863,7 +876,7 @@ html {
   order: 2;
   display: block;
   color: #fafafa !important;
-  background-color: #056DAE;
+  background-color: #005aa1;
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -934,7 +947,7 @@ html {
 }
 
 #page-top .featured-category .carousel .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .tile-title {
-  color: #056DAE !important;
+  color: #005aa1 !important;
   font-size: 1.75rem;
   font-family: "interstate", arial, sans-serif;
   margin-bottom: 0;
@@ -954,7 +967,7 @@ html {
 #page-top .featured-category .carousel .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon {
   display: block;
   color: #fafafa !important;
-  background-color: #056DAE;
+  background-color: #005aa1;
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -996,7 +1009,7 @@ html {
 }
 
 #page-top .featured-category .carousel .carousel-control {
-  color: #056DAE !important;
+  color: #005aa1 !important;
   filter: brightness(1);
   transition: filter .2s ease;
 }
@@ -1182,7 +1195,7 @@ html {
   display: block;
   position: relative;
   color: #fafafa !important;
-  background-color: #056DAE;
+  background-color: #005aa1;
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -1246,7 +1259,7 @@ html {
   display: block;
   position: relative;
   color: #fafafa !important;
-  background-color: #056DAE;
+  background-color: #005aa1;
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -1546,7 +1559,7 @@ html {
 #page-top #showcase_category .container.posts .row .list-view-item .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .post-details-icon {
   display: block;
   color: #fafafa !important;
-  background-color: #056DAE;
+  background-color: #005aa1;
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
