@@ -3,6 +3,12 @@
 ///////////////////////////////////////
 @import url("https://use.typekit.net/zke5hab.css"); // Interstate Type Kit
 
+:root {
+  --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/56d5b5f3-63c4-4e8a-a795-b911e52ec088/subaccount/7fd09f30-2400-4c9c-89e8-e548073258ec/content/assets/templates/template_background/Navbar_DBD_logo_1627404178385/Navbar_DBD_logo_a462f55e-f921-46da-8634-f267245e2aab.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=S91YM6QiDqN%2FnryzMqxRfspPndw%3D");
+  --header-button-color: #002D72;
+  --header-button-hover: #005aa1;
+}
+
 ///////////////////////////////////////
 // define mixins //
 ///////////////////////////////////////
@@ -69,7 +75,7 @@
 }
 
 // global button styles
-@mixin button($color: $off-white, $background-color: $link-hover, $radius: 6px){
+@mixin button($color: $off-white, $background-color: var(--header-button-color), $radius: 6px){
   color: $color !important;
   background-color: $background-color;
   padding: .5rem 2rem;
@@ -556,13 +562,13 @@ html {
             display: inline-block;
             margin: 1rem 1rem 0 0;
             padding: 1rem;
-            background-color: $light-blue;
+            background-color: var(--header-button-color);
             transition: background-color .2s ease-in-out;
             font-size: 1;
             font-weight: 400;
 
             &:hover {
-              background-color: $blue;
+              background-color: var(--header-button-hover);
             }
           }
 
@@ -1624,8 +1630,8 @@ footer {
   margin-top: 8rem;
   padding-top: 3rem;
   background-color: #333333;
-  display: block;
-  width: 100%;
+  display: block !important;
+  width: 100% !important;
 
   &:after {
     content: '';

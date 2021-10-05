@@ -1,4 +1,10 @@
 @import url("https://use.typekit.net/zke5hab.css");
+:root {
+  --login-bkg: url("https://s3.amazonaws.com/present.knowledgevision.com/account/56d5b5f3-63c4-4e8a-a795-b911e52ec088/subaccount/7fd09f30-2400-4c9c-89e8-e548073258ec/content/assets/templates/template_background/Navbar_DBD_logo_1627404178385/Navbar_DBD_logo_a462f55e-f921-46da-8634-f267245e2aab.png?AWSAccessKeyId=AKIAJ3VQS6HPMVD4IBQA&Expires=2145916800&Signature=S91YM6QiDqN%2FnryzMqxRfspPndw%3D");
+  --header-button-color: #002D72;
+  --header-button-hover: #005aa1;
+}
+
 html {
   background: #333333;
 }
@@ -397,14 +403,14 @@ html {
   display: inline-block;
   margin: 1rem 1rem 0 0;
   padding: 1rem;
-  background-color: #005aa1;
+  background-color: var(--header-button-color);
   transition: background-color .2s ease-in-out;
   font-size: 1;
   font-weight: 400;
 }
 
 #page-top .header-container .row .col-xs-12 .showcase-description a:hover {
-  background-color: #002D72;
+  background-color: var(--header-button-hover);
 }
 
 @media (max-width: 550px) {
@@ -728,7 +734,7 @@ html {
 
 #page-top .featured-category .featured-category-path {
   color: #fafafa !important;
-  background-color: #005aa1;
+  background-color: var(--header-button-color);
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -855,7 +861,7 @@ html {
   order: 2;
   display: block;
   color: #fafafa !important;
-  background-color: #005aa1;
+  background-color: var(--header-button-color);
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -946,7 +952,7 @@ html {
 #page-top .featured-category .carousel .post .thumb-meta-wrapper .tile-text-area .tile-header-ellipsis.post-details-activate .post-details-icon {
   display: block;
   color: #fafafa !important;
-  background-color: #005aa1;
+  background-color: var(--header-button-color);
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -1176,7 +1182,7 @@ html {
   display: block;
   position: relative;
   color: #fafafa !important;
-  background-color: #005aa1;
+  background-color: var(--header-button-color);
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -1240,7 +1246,7 @@ html {
   display: block;
   position: relative;
   color: #fafafa !important;
-  background-color: #005aa1;
+  background-color: var(--header-button-color);
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -1540,7 +1546,7 @@ html {
 #page-top #showcase_category .container.posts .row .list-view-item .post .thumb-meta-wrapper .tile-header-ellipsis.post-details-activate .post-details-icon {
   display: block;
   color: #fafafa !important;
-  background-color: #005aa1;
+  background-color: var(--header-button-color);
   padding: .5rem 2rem;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -1662,8 +1668,8 @@ footer {
   margin-top: 8rem;
   padding-top: 3rem;
   background-color: #333333;
-  display: block;
-  width: 100%;
+  display: block !important;
+  width: 100% !important;
 }
 
 footer:after {
