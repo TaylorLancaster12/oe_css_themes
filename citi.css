@@ -492,6 +492,7 @@ html {
   box-shadow: 0 7px 6px 0px #e2e2e2;
   z-index: 10;
   border-radius: 0 0 6px 6px;
+  padding: 0;
 }
 
 #page-top header:nth-child(3) .header-container .row .col-xs-12 .showcase-description p {
