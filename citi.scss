@@ -849,6 +849,7 @@ html {
   .featured-category {
     border-bottom: none !important;
     margin-bottom: 8rem;
+    width: 100%;
 
     @include breakpoint(sm) {
       margin-bottom: 6rem;
