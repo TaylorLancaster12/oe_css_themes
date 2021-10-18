@@ -1647,18 +1647,8 @@ html {
   right: 0;
 }
 
-.tile-area {
-  display: none !important;
-}
-
-@media (max-width: 767px) {
-  .tile-area {
-    display: unset;
-  }
-  .tile-area .left-container {
-    display: block;
-    margin-top: 2rem;
-  }
+.single-post .tile-area span {
+  color: #000000 !important;
 }
 
 .KnowledgeVisionEmbeddedContent {
@@ -1973,22 +1963,4 @@ footer .footer-container p {
 
 .newLabel {
   z-index: 3;
-}
-
-@media not all and (min-resolution:.001dpcm) {
-    @media (min-width: 873px) {
-        #page-top header .header-container .row .col-xs-12 {
-            max-height: 350px !important;
-        }
-    }
-    @media (min-width: 873px) and (max-width: 1050px) {
-        #page-top header .header-container .row .col-xs-12 {
-            max-height: 450px !important;
-        }
-    }
-    @media (min-width: 767px) and (max-width: 872px) {
-        #page-top header .header-container .row .col-xs-12 {
-            max-height: 550px !important;
-        }
-    }
 }

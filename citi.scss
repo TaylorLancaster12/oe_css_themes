@@ -1605,17 +1605,25 @@ html {
 }
 
 ///////////////////////////////////////
-// presentation title & next presentation button styles //
+// turn off presentation title & next presentation button styles //
 ///////////////////////////////////////
-.tile-area {
-  display: none !important;
+// .tile-area {
+//   display: none !important;
+//
+//   @include breakpoint(sm) {
+//     display: unset;
+//
+//     .left-container {
+//       display: block;
+//       margin-top: 2rem;
+//     }
+//   }
+// }
 
-  @include breakpoint(sm) {
-    display: unset;
-
-    .left-container {
-      display: block;
-      margin-top: 2rem;
+.single-post {
+  .tile-area {
+    span {
+      color: #000000 !important;
     }
   }
 }
