@@ -547,7 +547,16 @@ body {
   height: 100% !important;
 }
 
-#page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title::after {
+#page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  height: 100% !important;
+  justify-content: flex-end;
+}
+
+#page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:before {
   display: block;
   content: '';
   width: 100%;
@@ -560,16 +569,7 @@ body {
   transform: scaleX(1.25);
 }
 
-#page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  position: relative;
-  height: 100% !important;
-  justify-content: flex-end;
-}
-
-#page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:before {
+#page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a::after {
   margin-top: auto;
   display: block;
   padding: 0;

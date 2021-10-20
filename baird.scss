@@ -566,19 +566,6 @@ body {
               overflow: visible;
               height: 100% !important;
 
-              &::after {
-                display: block;
-                content: '';
-                width: 100%;
-                height: 1px;
-                background: black;
-                bottom: 2.25rem;
-                z-index: 1;
-                left: 0;
-                position: absolute;
-                transform: scaleX(1.25);
-              }
-
               a {
                 display: flex;
                 flex-direction: column;
@@ -588,6 +575,19 @@ body {
                 justify-content: flex-end;
 
                 &:before {
+                  display: block;
+                  content: '';
+                  width: 100%;
+                  height: 1px;
+                  background: black;
+                  bottom: 2.25rem;
+                  z-index: 1;
+                  left: 0;
+                  position: absolute;
+                  transform: scaleX(1.25);
+                }
+
+                &::after {
                   margin-top: auto;
                   display: block;
                   padding: 0;
