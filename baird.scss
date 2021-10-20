@@ -556,7 +556,10 @@ body {
 
           /* open link for link tiles */
           .link-header {
+            align-content: flex-start;
+
             .tile-title {
+              width: 100%;
               // &::after {
               //   display: block;
               //   content: '';
@@ -569,6 +572,7 @@ body {
               // }
               a {
                 &:before {
+                  margin-top: 2rem;
                   display: block;
                   padding: 0;
                   width: 100%;
@@ -584,15 +588,19 @@ body {
                   text-decoration: none;
                   position: relative;
                   align-self: flex-end;
-                  content: "More Details";
+                  content: "Open Now";
                   font-family: var(--primary-font);
                 }
 
                 &:after {
                   opacity: 1;
                   content: '\276F'; // right chevron
-                  position: relative;
-                  left: .5rem;
+                  opacity: 1;
+                  position: absolute;
+                  left: 7rem;
+                  top: 2.5rem;
+                  color: var(--primary-color);
+                  font-size: 1.25rem;
                 }
 
                 &:hover {

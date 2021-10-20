@@ -534,7 +534,16 @@ body {
   font-family: var(--primary-font);
 }
 
+#page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header {
+  align-content: flex-start;
+}
+
+#page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title {
+  width: 100%;
+}
+
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:before {
+  margin-top: 2rem;
   display: block;
   padding: 0;
   width: 100%;
@@ -550,15 +559,19 @@ body {
   text-decoration: none;
   position: relative;
   align-self: flex-end;
-  content: "More Details";
+  content: "Open Now";
   font-family: var(--primary-font);
 }
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:after {
   opacity: 1;
   content: '\276F';
-  position: relative;
-  left: .5rem;
+  opacity: 1;
+  position: absolute;
+  left: 7rem;
+  top: 2.5rem;
+  color: var(--primary-color);
+  font-size: 1.25rem;
 }
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:hover {
