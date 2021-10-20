@@ -307,7 +307,7 @@ body {
 #page-top {
   #main_navigation {
     background-color: var(--bkg-color) !important;
-    border-color: var(--primary-color);
+    border-color: var(--secondary-color);
 
     .dropdown-menu {
       background-color: var(--bkg-color) !important;
@@ -877,7 +877,7 @@ body {
   #kv-track-parameters + #main_navigation {
 
     ~ header {
-      background-color: var(--primary-color);
+      background-color: var(--secondary-color);
       border-bottom: 10px solid $black;
 
       .showcase-title {
@@ -1135,4 +1135,16 @@ body {
     body#page-top {
         padding-top: 61px!important;
     }
+}
+
+footer {
+  border-top: 1px solid $white;
+
+  .footer-container {
+    padding: 4rem 0;
+
+    p {
+      margin: 0;
+    }
+  }
 }
