@@ -571,6 +571,11 @@ body {
               //   transform: scaleX(1.25);
               // }
               a {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                position: relative;
+
                 &:before {
                   margin-top: 2rem;
                   display: block;
