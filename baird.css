@@ -566,6 +566,7 @@ body {
   z-index: 1;
   transform: scaleX(1.25);
   margin-top: auto;
+  order: 2;
 }
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a::after {
