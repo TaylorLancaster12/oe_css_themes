@@ -550,7 +550,7 @@ body {
 }
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:before {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: block;
   padding: 0;
   width: 100%;
@@ -559,7 +559,6 @@ body {
   font-size: 1.3rem;
   order: 3;
   color: var(--primary-color) !important;
-  margin-top: 0;
   padding: 0;
   filter: brightness(1);
   transition: filter .2s ease, padding .2s ease;
@@ -574,9 +573,9 @@ body {
   opacity: 1;
   content: '\276F';
   opacity: 1;
-  position: absolute;
-  left: 7rem;
-  top: 2.5rem;
+  position: relative;
+  left: 6.5rem;
+  top: 1.7rem;
   color: var(--primary-color);
   font-size: 1.25rem;
 }
