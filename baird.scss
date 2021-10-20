@@ -573,6 +573,7 @@ body {
                 position: relative;
                 height: 100% !important;
                 justify-content: flex-end;
+                gap: 1rem;
 
                 &:before {
                   display: block;
@@ -585,10 +586,10 @@ body {
                   left: 0;
                   position: absolute;
                   transform: scaleX(1.25);
+                  margin-top: auto;
                 }
 
                 &::after {
-                  margin-top: auto;
                   display: block;
                   padding: 0;
                   width: 100%;

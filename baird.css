@@ -554,6 +554,7 @@ body {
   position: relative;
   height: 100% !important;
   justify-content: flex-end;
+  gap: 1rem;
 }
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a:before {
@@ -567,10 +568,10 @@ body {
   left: 0;
   position: absolute;
   transform: scaleX(1.25);
+  margin-top: auto;
 }
 
 #page-top:not(.single-post) .column-view-item > .post .thumb-meta-wrapper .tile-text-area .link-header .tile-title a::after {
-  margin-top: auto;
   display: block;
   padding: 0;
   width: 100%;
