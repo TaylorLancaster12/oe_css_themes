@@ -942,6 +942,7 @@ body {
     ~ header {
       background-color: var(--secondary-color);
       border-bottom: 10px solid $black;
+      padding-top: 0;
 
       .showcase-title {
         font-weight: 500;

@@ -921,6 +921,7 @@ body {
 #page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ header {
   background-color: var(--secondary-color);
   border-bottom: 10px solid #000000;
+  padding-top: 0;
 }
 
 #page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ header .showcase-title {
