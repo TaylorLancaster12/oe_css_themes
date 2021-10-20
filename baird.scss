@@ -486,7 +486,7 @@ body {
             }
 
             .tile-title {
-              color: $white !important;
+              color: var(--card-text-color) !important;
               font-size: 1.75rem;
               font-family: var(--primary-font);
               line-height: 1.35;
@@ -501,7 +501,7 @@ body {
               }
 
               a {
-                color: $white !important;
+                color: var(--card-text-color) !important;
                 font-size: 1.75rem;
                 font-family: var(--primary-font);
                 line-height: 1.35;
@@ -634,7 +634,7 @@ body {
             }
 
             .tile-title {
-              color: $white;
+              color: var(--card-text-color);
               font-size: 2.5rem;
               font-family: var(--primary-font);
               font-weight: 500;
