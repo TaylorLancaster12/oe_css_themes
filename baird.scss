@@ -306,11 +306,11 @@ body {
 /* navbar */
 #page-top {
   #main_navigation {
-    background-color: var(--bkg-color) !important;
-    border-color: var(--secondary-color);
+    background-color: var(--secondary-color) !important;
+    border-color: $white;
 
     .dropdown-menu {
-      background-color: var(--bkg-color) !important;
+      background-color: var(--secondary-color) !important;
     }
 
     .navbar-brand {
@@ -513,7 +513,7 @@ body {
               content: '';
               width: 100%;
               height: 2px;
-              background: #000000;
+              background: transparent;
               align-self: flex-end;
               margin: 1.25rem 0;
               transform: scaleX(1.25);
@@ -527,7 +527,7 @@ body {
               top: unset;
               font-size: 1.3rem;
               order: 3;
-              color: var(--primary-color) !important;
+              color: var(--card-text-color) !important;
               margin-top: 0;
               padding: 0;
               filter: brightness(1);
@@ -580,7 +580,7 @@ body {
                   content: '';
                   width: 100%;
                   height: 1px;
-                  background: black;
+                  background: transparent;
                   z-index: 1;
                   transform: scaleX(1.25);
                   margin-top: auto;
@@ -595,7 +595,7 @@ body {
                   top: unset;
                   font-size: 1.3rem;
                   order: 3;
-                  color: var(--primary-color) !important;
+                  color: var(--card-text-color) !important;
                   padding: 0;
                   filter: brightness(1);
                   transition: filter .2s ease, padding .2s ease;
@@ -939,8 +939,7 @@ body {
   #kv-track-parameters + #main_navigation {
 
     ~ header {
-      background-color: var(--secondary-color);
-      border-bottom: 10px solid $black;
+      background-color: transparent;
       padding-top: 0;
 
       .showcase-title {
