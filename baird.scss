@@ -995,8 +995,12 @@ body {
     color: #ffffff !important;
   }
 
-  h2.page-title {
+  h2#page-title {
     color: $white;
+  }
+
+  .right-container {
+    display: none !important;
   }
 }
 

@@ -973,8 +973,12 @@ body {
   color: #ffffff !important;
 }
 
-#page-top.single-post h2.page-title {
+#page-top.single-post h2#page-title {
   color: #ffffff;
+}
+
+#page-top.single-post .right-container {
+  display: none !important;
 }
 
 /* login */
