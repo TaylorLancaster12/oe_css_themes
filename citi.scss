@@ -1733,7 +1733,7 @@ footer {
 #page-top {
   .login-container {
     margin: 0;
-    height: calc(100vh - 51px); // height of page-top padding
+    height: calc(100% - 124px); // height of page-top padding
     width: 100% !important;
     background-image: var(--login-bkg);
     background-size: cover;
@@ -1742,6 +1742,10 @@ footer {
     position: absolute;
     bottom: 0;
     left: 0;
+
+    @include breakpoint(sm) {
+      height: calc(100% - 60px);
+    }
 
     > .row {
       position: absolute;

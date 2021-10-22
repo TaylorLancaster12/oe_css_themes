@@ -1772,7 +1772,7 @@ footer .footer-container p {
 
 #page-top .login-container {
   margin: 0;
-  height: calc(100vh - 51px);
+  height: calc(100% - 124px);
   width: 100% !important;
   background-image: var(--login-bkg);
   background-size: cover;
@@ -1781,6 +1781,12 @@ footer .footer-container p {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+@media (max-width: 767px) {
+  #page-top .login-container {
+    height: calc(100% - 60px);
+  }
 }
 
 #page-top .login-container > .row {
