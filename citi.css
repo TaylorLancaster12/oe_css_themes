@@ -155,6 +155,10 @@ html {
   background-color: transparent !important;
 }
 
+#kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:first-child li i {
+  color: #002a54 !important;
+}
+
 #kv-track-parameters ~ #main_navigation .container-fluid .navbar-collapse ul.navbar-nav:last-child {
   margin-left: -15px;
 }
