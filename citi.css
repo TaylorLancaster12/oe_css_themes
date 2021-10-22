@@ -821,9 +821,14 @@ html {
   background: rgba(0, 0, 0, 0.3);
 }
 
+#page-top .featured-category .carousel .post .thumb-meta-wrapper {
+  height: auto !important;
+}
+
 @media (max-width: 767px) {
   #page-top .featured-category .carousel .post .thumb-meta-wrapper {
     width: 100%;
+    padding-bottom: .5rem;
   }
 }
 

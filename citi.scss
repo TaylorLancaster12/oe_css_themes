@@ -935,9 +935,11 @@ html {
         }
 
         .thumb-meta-wrapper {
+          height: auto !important;
 
           @include breakpoint(sm) {
             width: 100%;
+            padding-bottom: .5rem;
           }
 
           .tile-text-area {
