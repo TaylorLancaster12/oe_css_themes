@@ -2015,7 +2015,6 @@ footer .footer-container p {
 
 #page-top:not(.single-post) .featured-category {
   border: none;
-  margin: 0 auto;
   padding: 0;
 }
 
@@ -2037,7 +2036,7 @@ footer .footer-container p {
 #page-top:not(.single-post) .featured-category .container:not(.posts) > .row .col-xs-9 {
   width: unset;
   padding: 0;
-  margin-right: 4rem;
+  margin-right: auto;
 }
 
 #page-top:not(.single-post) .featured-category .container:not(.posts) > .row .col-xs-9 a .showcase-title {
