@@ -476,8 +476,7 @@ body {
 
             .tile-title {
               color: var(--card-text-color) !important;
-              font-size: 1.75rem;
-              font-family: var(--primary-font);
+              font-size: 1.5rem;
               line-height: 1.35;
               filter: brightness(1);
               transition: filter .2s ease, padding .2s ease;
@@ -698,7 +697,6 @@ body {
             .tile-title {
               color: var(--card-text-color);
               font-size: 2.5rem;
-              font-family: var(--primary-font);
               font-weight: 500;
               line-height: 1.35;
               filter: brightness(1);
