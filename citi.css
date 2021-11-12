@@ -368,7 +368,7 @@ html {
   margin-right: 3rem;
   margin-bottom: 0;
   background-color: #002a54;
-  padding: 3rem 0;
+  padding: 3rem 0 !important;
 }
 
 #page-top .header-container .row .col-xs-12 .showcase-description p, #page-top .header-container .row .col-xs-12 .showcase-description span {

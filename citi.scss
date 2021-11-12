@@ -531,7 +531,7 @@ html {
           margin-right: 3rem;
           margin-bottom: 0;
           background-color: $primary-accent;
-          padding: 3rem 0;
+          padding: 3rem 0 !important;
 
           p, span {
             color: $off-white !important;
