@@ -2200,4 +2200,23 @@ footer .footer-container p {
   object-position: center;
 }
 
+/* Styles for sub page only */
+#page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ header .header-container .row .col-xs-12 .showcase-description p {
+  color: #000 !important;
+  font-size: unset;
+}
+
+#page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ header .header-container .row .col-xs-12 .showcase-description p:first-child {
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+
+#page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ header .header-container .row .col-xs-12 .showcase-description ul li {
+  list-style-type: none;
+}
+
+#page-top:not(.single-post) #kv-track-parameters + #main_navigation ~ header .header-container .row .col-xs-12 .showcase-description ul li span {
+  color: #000 !important;
+}
+
 /* Styles for header on safari */
