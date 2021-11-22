@@ -1889,6 +1889,7 @@ footer .footer-container p {
 #page-top .login-container > .row > div form .form-group label[for='I_can_confirm_that_I_have_been_invited_to_register_by_Citi__c'],
 #page-top .login-container > .row > div form .form-group label[for='I_confirm_that_I_have_been_invited_to_register_by_Citi_c'],
 #page-top .login-container > .row > div form .form-group label[for='I_can_confirm_that_I_have_been_invited_to_register_by_Citi_c'],
+#page-top .login-container > .row > div form .form-group label[for='I_can_confirm_I_have_been_invited_to_register_by_Citi_c'],
 #page-top .login-container > .row > div form .form-group label[for='Attendee_Type_c'] {
   position: unset;
   margin-left: 0;
@@ -1897,6 +1898,7 @@ footer .footer-container p {
 
 #page-top .login-container > .row > div form .form-group label[for='I_can_confirm_that_I_have_been_invited_to_register_by_Citi__c'] span,
 #page-top .login-container > .row > div form .form-group label[for='I_can_confirm_that_I_have_been_invited_to_register_by_Citi_c'] span,
+#page-top .login-container > .row > div form .form-group label[for='I_can_confirm_I_have_been_invited_to_register_by_Citi_c'] span,
 #page-top .login-container > .row > div form .form-group label[for='I_confirm_that_I_have_been_invited_to_register_by_Citi_c'] span {
   margin-bottom: auto;
 }
