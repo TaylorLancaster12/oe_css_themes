@@ -368,7 +368,7 @@ html {
   margin-right: 3rem;
   margin-bottom: 0;
   background-color: #002a54;
-  padding: 3rem 0 !important;
+  padding: 3rem 0;
 }
 
 #page-top .header-container .row .col-xs-12 .showcase-description p, #page-top .header-container .row .col-xs-12 .showcase-description span {
@@ -388,19 +388,6 @@ html {
 @media (max-width: 768px) {
   #page-top .header-container .row .col-xs-12 .showcase-description p, #page-top .header-container .row .col-xs-12 .showcase-description span {
     font-size: 1.25rem;
-  }
-}
-
-#page-top .header-container .row .col-xs-12 .showcase-description p:first-child {
-  margin-bottom: 1rem;
-  font-size: 4.5rem;
-  font-weight: 400;
-  font-style: italic;
-}
-
-@media (max-width: 768px) {
-  #page-top .header-container .row .col-xs-12 .showcase-description p:first-child {
-    font-size: 3rem;
   }
 }
 
@@ -543,8 +530,29 @@ html {
   display: none;
 }
 
-#page-top #url-auth-suffix ~ header .showcase-title {
+#page-top #url-auth-suffix ~ header .header-container .row .col-xs-12 .showcase-title {
   display: none !important;
+}
+
+#page-top #url-auth-suffix ~ header .header-container .row .col-xs-12 .showcase-description {
+  padding: 3rem 0 !important;
+}
+
+#page-top #url-auth-suffix ~ header .header-container .row .col-xs-12 .showcase-description p:first-child {
+  margin-bottom: 1rem;
+  font-size: 4.5rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  #page-top #url-auth-suffix ~ header .header-container .row .col-xs-12 .showcase-description p:first-child {
+    font-size: 3rem;
+  }
+}
+
+#page-top #url-auth-suffix ~ header .header-container .row .col-xs-12 .showcase-description > *:last-child {
+  margin-bottom: 1.75rem;
 }
 
 #page-top .featured-knovio.row {

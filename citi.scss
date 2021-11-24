@@ -531,7 +531,7 @@ html {
           margin-right: 3rem;
           margin-bottom: 0;
           background-color: $primary-accent;
-          padding: 3rem 0 !important;
+          padding: 3rem 0;
 
           p, span {
             color: $off-white !important;
@@ -548,17 +548,6 @@ html {
 
             @media (max-width: 768px) {
               font-size: 1.25rem;
-            }
-          }
-
-          p:first-child {
-            margin-bottom: 1rem;
-            font-size: 4.5rem;
-            font-weight: 400;
-            font-style: italic;
-
-            @media (max-width: 768px) {
-              font-size: 3rem;
             }
           }
 
@@ -694,9 +683,28 @@ html {
   }
 }
 
-#page-top #url-auth-suffix ~ header {
+#page-top #url-auth-suffix ~ header .header-container .row .col-xs-12 {
   .showcase-title {
     display: none !important;
+  }
+
+  .showcase-description {
+    padding: 3rem 0 !important;
+
+    p:first-child {
+      margin-bottom: 1rem;
+      font-size: 4.5rem;
+      font-weight: 400;
+      font-style: italic;
+
+      @media (max-width: 768px) {
+        font-size: 3rem;
+      }
+    }
+
+    > *:last-child {
+      margin-bottom: 1.75rem;
+    }
   }
 }
 
